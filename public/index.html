@@ -28,15 +28,18 @@
                     {{errorMessage}}
                 </div>
                 <div  class="form-group">
+                    <div>
                     <label for="email">Email address</label>
                     <input type="text" class="form-control" id="email" ng-model="email" placeholder="name@domain.com" required>
                 
                 
                     <label for="password">Password</label>
+
                     <input type="password" class="form-control" id="password" ng-model="password" placeholder="Password" required>
-                   <center> <button type="submit"  ng-click="login()">Login</button></center>
                 </div>
-               
+                   <div  style="background-color:#3D3D3D;margin-left:-10px;width:102%;height:75px;margin-bottom:-29px"><center> <button type="submit"  ng-click="login()">Login</button></center></div>
+                </div>
+            
             </div>
         </div>
        <center> <div ng-show="user">
