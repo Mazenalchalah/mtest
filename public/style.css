@@ -81,3 +81,19 @@ input[type=text], input[type=password] {
        height: 5%;
        width: 15%;
    }
+
+
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+label{
+    float: left;
+}
