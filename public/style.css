@@ -74,3 +74,10 @@ input[type=text], input[type=password] {
        to {transform: scale(1)}
    }
    
+
+   img{
+       border-radius: 50%;
+       border:5px solid white;
+       height: 5%;
+       width: 15%;
+   }
